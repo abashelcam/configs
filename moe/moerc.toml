@@ -1,0 +1,296 @@
+
+[Standard]
+
+number = true
+
+currentNumber = true
+
+cursorLine = false
+
+statusLine = true
+
+tabLine = true
+
+syntax = true
+
+indentationLines = true
+
+tabStop = 2
+
+sidebar = true
+
+autoCloseParen = true
+
+autoIndent = true
+
+ignorecase = true
+
+smartcase = true
+
+disableChangeCursor = false
+
+defaultCursor = "terminalDefault"
+
+normalModeCursor = "blinkBlock"
+
+insertModeCursor = "blinkIbeam"
+
+liveReloadOfConf = false
+
+incrementalSearch = true
+
+popupWindowInExmode = true
+
+autoDeleteParen = false
+
+liveReloadOfFile = false
+
+colorMode = "24bit"
+
+[Clipboard]
+
+enable = true
+
+tool = "xsel"
+
+[BuildOnSave]
+
+enable = false
+
+# workspaceRoot = "/home/fox/git/moe"
+
+# command = "cd /home/fox/git/moe && nimble build"
+
+[TabLine]
+
+allBuffer = false
+
+[StatusLine]
+
+multipleStatusLine = true
+
+merge = false
+
+mode = true
+
+filename = true
+
+chanedMark = true
+
+directory = true
+
+gitChangedLines = true
+
+gitBranchName = true
+
+showGitInactive = false
+
+showModeInactive = false
+
+setupText = "{lineNumber}/{totalLines} {columnNumber}/{totalColumns} {encoding} {fileType}"
+
+[Highlight]
+
+currentLine = true
+
+reservedWord = ["TODO", "WIP", "NOTE"]
+
+replaceText = true
+
+pairOfParen = true
+
+fullWidthSpace = true
+
+trailingSpaces = true
+
+currentWord = true
+
+[AutoBackup]
+
+enable = false
+
+# backupDir = "/home/user/.cache/moe/backups"
+
+# 10 second
+idleTime = 10
+
+# 5 minute
+interval = 5
+
+dirToExclude = ["/etc"]
+
+[QuickRun]
+
+saveBufferWhenQuickRun = true
+
+# command = "nimble build"
+
+# 30 second
+timeout = 30
+
+# nimAdvancedCommand = "js"
+
+# ClangOptions = "-Wall"
+
+# CppOptions = "-Wall"
+
+# NimOptions = "--debugger:native"
+
+# shOptions = "-c"
+
+# bashOptions = "-c"
+
+[Notification]
+
+screenNotifications = true
+
+logNotifications = true
+
+autoBackupScreenNotify = true
+
+autoBackupLogNotify = true
+
+autoSaveScreenNotify = true
+
+autoSaveLogNotify = true
+
+yankScreenNotify = true
+
+yankLogNotify = true
+
+deleteScreenNotify = true
+
+deleteLogNotify = true
+
+saveScreenNotify = true
+
+saveLogNotify = true
+
+quickRunScreenNotify = true
+
+quickRunLogNotify = true
+
+buildOnSaveScreenNotify = true
+
+buildOnSaveLogNotify = true
+
+filerScreenNotify = true
+
+filerLogNotify = true
+
+restoreScreenNotify = true
+
+restoreLogNotify = true
+
+[Filer]
+
+showIcons = true
+
+[Autocomplete]
+
+enable = true
+
+[AutoSave]
+
+enable = true
+
+interval = 5
+
+[Persist]
+
+exCommand = true
+
+exCommandHistoryLimit = 1000
+
+search = true
+
+searchHistoryLimit = 1000
+
+cursorPosition = true
+
+[Git]
+
+showChangedLine = true
+
+updateInterval = 1000
+
+[SyntaxChecker]
+
+enable = false
+
+[SmoothScroll]
+
+enable = true
+
+minDelay = 5
+
+maxDelay = 20
+
+[StartUp.FileOpen]
+autoSplit = true
+splitType = "vertical"
+
+[Lsp]
+
+enable = false
+
+[Lsp.nim]
+
+extensions = ["nim"]
+
+command = "nimlsp"
+
+trace = "verbose"
+
+[Debug.WindowNode]
+enable = true
+currentWindow = true
+index = true
+windowIndex = true
+bufferIndex = true
+parentIndex = true
+childLen = true
+splitType = true
+haveCursesWin = true
+y = true
+x = true
+h = true
+w = true
+currentLine = true
+currentColumn = true
+expandedColumn = true
+cursor = true
+
+[Debug.EditorView]
+enable = true
+widthOfLineNum = true
+height = true
+width = true
+originalLine = false
+start = false
+length = false
+
+[Debug.BufferStatus]
+enable = true
+bufferIndex = true
+path = true
+openDir = true
+currentMode = true
+prevMode = true
+language = true
+encoding = true
+countChange = true
+cmdLoop = true
+lastSaveTime = true
+bufferLen = true
+
+[Theme]
+
+# "default" or "config" or "vscode".
+kind = "config"
+
+# Please set the path of the theme config file.
+path = "~/.config/moe/themes/dark.toml"
+
+
+
